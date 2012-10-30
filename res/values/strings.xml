@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">android_fragments</string>
+    <string name="app_name">Android Fragments</string>
+    <string name="replace_fragment">Replace Fragment</string>
+    <string name="generate_random_number">Generate Random Number</string>
 </resources>
