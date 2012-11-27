@@ -15,5 +15,16 @@
         </activity>
 
         <activity android:name=".android.activities.DetailsActivity"/>
+
+        <service
+                android:enabled="true"
+                android:name=".android.UpdateService"/>
+
+        <receiver
+                android:name=".android.fragments.MyListFragment$BroadcastListener">
+            <intent-filter>
+                <action android:name="com.example.android.UPDATE_LIST" />
+            </intent-filter>
+        </receiver>
     </application>
 </manifest>
