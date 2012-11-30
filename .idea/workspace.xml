@@ -14,13 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec522cf0-79bc-42f6-a69d-a8c09f878f19" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android_fragments.iml" afterPath="$PROJECT_DIR$/android_fragments.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/R.java" afterPath="$PROJECT_DIR$/gen/com/example/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/my_list_fragment.xml" afterPath="$PROJECT_DIR$/res/layout/my_list_fragment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/android/UpdateService.java" afterPath="$PROJECT_DIR$/src/com/example/android/UpdateService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/android/fragments/MyListFragment.java" afterPath="$PROJECT_DIR$/src/com/example/android/fragments/MyListFragment.java" />
     </list>
     <ignored path="android_fragments.iws" />
@@ -40,7 +37,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/android/UpdateService.java" line="45" class="com.example.android.UpdateService.UpdateTask" package="com.example.android">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/android/fragments/MyListFragment.java" line="142" class="com.example.android.fragments.MyListFragment.BroadcastListener" package="com.example.android.fragments">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -53,7 +50,85 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/android/fragments/MyListFragment.java" line="128" class="com.example.android.fragments.MyListFragment.BroadcastListener" package="com.example.android.fragments">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/android/fragments/MyListFragment.java" line="63" class="com.example.android.fragments.MyListFragment$2" package="com.example.android.fragments">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/android/fragments/MyListFragment.java" line="116" class="com.example.android.fragments.MyListFragment" package="com.example.android.fragments">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/android/fragments/MyListFragment.java" line="122" class="com.example.android.fragments.MyListFragment" package="com.example.android.fragments">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/android/fragments/MyListFragment.java" line="81" class="com.example.android.fragments.MyListFragment$3" package="com.example.android.fragments">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/android/fragments/MyListFragment.java" line="93" class="com.example.android.fragments.MyListFragment$4" package="com.example.android.fragments">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/android/fragments/MyListFragment.java" line="111" class="com.example.android.fragments.MyListFragment" package="com.example.android.fragments">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/android/UpdateService.java" line="82" class="com.example.android.UpdateService" package="com.example.android">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -114,8 +189,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -136,10 +211,8 @@
       <file leaf-file-name="UpdateService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/android/UpdateService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="42" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="61" column="86" selection-start="1626" selection-end="1626" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,10 +220,8 @@
       <file leaf-file-name="DetailsFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/android/fragments/DetailsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="70" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="2" column="7" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,7 +229,7 @@
       <file leaf-file-name="RandNumberFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/android/fragments/RandNumberFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="16" selection-start="1695" selection-end="1695" vertical-scroll-proportion="0.0">
+            <state line="51" column="67" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,7 +238,7 @@
       <file leaf-file-name="details_fragment.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/details_fragment.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="40" selection-end="918" vertical-scroll-proportion="0.0">
+            <state line="24" column="0" selection-start="902" selection-end="902" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -176,10 +247,12 @@
       <file leaf-file-name="MyListFragment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/android/fragments/MyListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="88" selection-start="4757" selection-end="4757" vertical-scroll-proportion="2.1102273">
+            <state line="73" column="11" selection-start="2692" selection-end="2692" vertical-scroll-proportion="0.7534091">
               <folding>
-                <element signature="e#2165#2376#0" expanded="true" />
-                <element signature="e#2365#2366#0" expanded="true" />
+                <element signature="e#2135#2690#0" expanded="true" />
+                <element signature="e#2679#2680#0" expanded="true" />
+                <element signature="e#2785#3041#0" expanded="true" />
+                <element signature="e#3030#3031#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,7 +261,7 @@
       <file leaf-file-name="my_list_fragment.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/my_list_fragment.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="50" selection-start="746" selection-end="746" vertical-scroll-proportion="-13.076923">
+            <state line="14" column="50" selection-start="552" selection-end="552" vertical-scroll-proportion="-9.153846">
               <folding />
             </state>
           </provider>
@@ -197,7 +270,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="69" selection-start="1107" selection-end="1107" vertical-scroll-proportion="-16.346153">
+            <state line="25" column="69" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -206,7 +279,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="63" selection-start="513" selection-end="513" vertical-scroll-proportion="-4.576923">
+            <state line="9" column="64" selection-start="554" selection-end="554" vertical-scroll-proportion="-5.8846154">
               <folding />
             </state>
           </provider>
@@ -230,15 +303,15 @@
         <option value="$PROJECT_DIR$/src/com/example/android/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/android/activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/details_activity.xml" />
-        <option value="$PROJECT_DIR$/res/layout/details_fragment.xml" />
         <option value="$PROJECT_DIR$/res/layout/rand_number_fragment.xml" />
         <option value="$PROJECT_DIR$/src/com/example/android/activities/DetailsActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/android/fragments/DetailsFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/example/android/fragments/RandNumberFragment.java" />
-        <option value="$PROJECT_DIR$/res/layout/my_list_fragment.xml" />
         <option value="$PROJECT_DIR$/src/com/example/android/CustomService.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/android/fragments/RandNumberFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/example/android/fragments/DetailsFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/details_fragment.xml" />
+        <option value="$PROJECT_DIR$/res/layout/my_list_fragment.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/example/android/UpdateService.java" />
         <option value="$PROJECT_DIR$/src/com/example/android/fragments/MyListFragment.java" />
       </list>
@@ -274,30 +347,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android_fragments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android_fragments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -430,6 +479,30 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_fragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_fragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -443,16 +516,16 @@
     <property name="options.lastSelected" value="preferences.editor" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="S566086a92bde" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="DEBUGGABLE_DEVICE" value="S566086a92bde" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="DEBUGGABLE_PROCESS" value="com.example" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="tablet4.1" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="tablet3.2" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -504,23 +577,6 @@
         <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -546,6 +602,23 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -626,7 +699,9 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -664,7 +739,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25494507" sideWeight="0.67098165" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26373628" sideWeight="0.67098165" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -750,84 +825,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/rand_number_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="54" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="54" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/android/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="87" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/android/fragments/RandNumberFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="67" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="69" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/details_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="40" selection-end="918" vertical-scroll-proportion="0.0">
+        <state line="24" column="0" selection-start="902" selection-end="902" vertical-scroll-proportion="-0.65384614">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/android/fragments/DetailsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="70" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/android/fragments/RandNumberFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="16" selection-start="1695" selection-end="1695" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="7" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/my_list_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="50" selection-start="746" selection-end="746" vertical-scroll-proportion="-13.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../job/android-sdk-linux/platforms/android-16/android.jar!/android/R.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="751" column="32" selection-start="50507" selection-end="50507" vertical-scroll-proportion="0.33295456">
+        <state line="14" column="50" selection-start="552" selection-end="552" vertical-scroll-proportion="-9.153846">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="63" selection-start="513" selection-end="513" vertical-scroll-proportion="-4.576923">
+        <state line="9" column="64" selection-start="554" selection-end="554" vertical-scroll-proportion="-5.8846154">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="jar://$PROJECT_DIR$/../../job/android-sdk-linux/platforms/android-16/android.jar!/android/R.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="69" selection-start="1107" selection-end="1107" vertical-scroll-proportion="-16.346153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/android/activities/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="87" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
+        <state line="833" column="32" selection-start="54903" selection-end="54903" vertical-scroll-proportion="0.33295456">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/android/UpdateService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="42" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="61" column="86" selection-start="1626" selection-end="1626" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/android/fragments/MyListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="88" selection-start="4757" selection-end="4757" vertical-scroll-proportion="2.1102273">
+        <state line="73" column="11" selection-start="2692" selection-end="2692" vertical-scroll-proportion="0.7534091">
           <folding>
-            <element signature="e#2165#2376#0" expanded="true" />
-            <element signature="e#2365#2366#0" expanded="true" />
+            <element signature="e#2135#2690#0" expanded="true" />
+            <element signature="e#2679#2680#0" expanded="true" />
+            <element signature="e#2785#3041#0" expanded="true" />
+            <element signature="e#3030#3031#0" expanded="true" />
           </folding>
         </state>
       </provider>

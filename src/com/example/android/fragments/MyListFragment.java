@@ -35,11 +35,10 @@ public class MyListFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-//        doBindService();
 
-        String[] values = new String[] { "Android", "iPhone", "WindowsMobile",
+        String[] values = new String[]{"Android", "iPhone", "WindowsMobile",
                 "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",
-                "Linux", "OS/2" };
+                "Linux", "OS/2"};
 
         ListView list = (ListView) view.findViewById(R.id.list);
 
@@ -62,22 +61,37 @@ public class MyListFragment extends Fragment {
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                getActivity().startService(new Intent(getActivity(), UpdateService.class));
+                if (mBoundService == null) {
+                    doBindService();
+                    getActivity().startService(new Intent(getActivity(), UpdateService.class));
+                    updateButton(true);
+                } else {
+                    getActivity().stopService(new Intent(getActivity(), UpdateService.class));
+                    doUnbindService();
+                    updateButton(false);
+                }
             }
         });
     }
 
-    private ServiceConnection mConnection = new ServiceConnection() {
+    private void updateButton(final boolean b) {
+        getActivity().runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                Button start = (Button) view.findViewById(R.id.start_service);
+                start.setText(b ? R.string.stop_service : R.string.start_service);
+            }
+        });
+    }
+
+    public ServiceConnection mConnection = new ServiceConnection() {
         public void onServiceConnected(ComponentName className, IBinder service) {
             // This is called when the connection with the service has been
             // established, giving us the service object we can use to
             // interact with the service.  Because we have bound to a explicit
             // service that we know is running in our own process, we can
             // cast its IBinder to a concrete class and directly access it.
-            mBoundService = ((UpdateService.LocalBinder)service).getService();
-
-            // Tell the user about this for our demo.
-            Toast.makeText(getActivity(), R.string.update_service_connected, Toast.LENGTH_SHORT).show();
+            mBoundService = ((UpdateService.LocalBinder) service).getService();
         }
 
         public void onServiceDisconnected(ComponentName className) {
@@ -95,8 +109,7 @@ public class MyListFragment extends Fragment {
         // class name because we want a specific service implementation that
         // we know will be running in our own process (and thus won't be
         // supporting component replacement by other applications).
-        getActivity().bindService(new Intent(getActivity(),
-                UpdateService.class), mConnection, Context.BIND_AUTO_CREATE);
+        getActivity().bindService(new Intent(getActivity(), UpdateService.class), mConnection, Context.BIND_AUTO_CREATE);
         mIsBound = true;
     }
 
@@ -106,6 +119,8 @@ public class MyListFragment extends Fragment {
             getActivity().unbindService(mConnection);
             mIsBound = false;
         }
+
+        mBoundService = null;
     }
 
     @Override
@@ -113,7 +128,6 @@ public class MyListFragment extends Fragment {
         super.onDestroy();
         getActivity().stopService(new Intent(getActivity(), UpdateService.class));
         doUnbindService();
-        Instance = null;
     }
 
     private void refresh() {

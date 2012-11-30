@@ -4,7 +4,10 @@
     <string name="replace_fragment">Replace Fragment</string>
     <string name="generate_random_number">Generate Random Number</string>
     <string name="start_service">Start Service</string>
-    <string name="update_service_started">Update Service started</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="update_service_label">Update Service</string>
+    <string name="update_service_started">Update Service Started</string>
+    <string name="update_service_stopped">Update Service Stopped</string>
     <string name="update_service_connected">Update Service Connected</string>
     <string name="update_service_disconnected">Update Service Disconnected</string>
 </resources>
