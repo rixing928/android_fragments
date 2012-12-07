@@ -14,6 +14,14 @@
             android:layout_marginTop="10dip"
             android:text="@string/start_service"/>
 
+    <Button
+            android:id="@+id/nested_fragments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dip"
+            android:text="Show nested fragments"/>
+
     <ListView
             android:id="@+id/list"
             android:layout_marginTop="10dip"

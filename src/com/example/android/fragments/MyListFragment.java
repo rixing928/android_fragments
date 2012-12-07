@@ -4,6 +4,7 @@ import android.content.*;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,7 @@ import android.widget.*;
 import com.example.R;
 import com.example.android.UpdateService;
 import com.example.android.activities.DetailsActivity;
+import com.example.android.activities.ParentActivity;
 
 public class MyListFragment extends Fragment {
 
@@ -70,6 +72,14 @@ public class MyListFragment extends Fragment {
                     doUnbindService();
                     updateButton(false);
                 }
+            }
+        });
+
+        Button showNested = (Button) view.findViewById(R.id.nested_fragments);
+        showNested.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), ParentActivity.class));
             }
         });
     }
